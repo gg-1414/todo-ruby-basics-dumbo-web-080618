@@ -3,6 +3,7 @@ require 'pry'
 def division(num1, num2)
  num1 / num2
  binding.pry
+ puts "hi"
 end
 
 def assign_variable(value)
