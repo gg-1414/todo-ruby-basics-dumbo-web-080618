@@ -1,5 +1,8 @@
+require 'pry'
+
 def division(num1, num2)
- 
+ num1 / num2
+ binding.pry
 end
 
 def assign_variable(value)
